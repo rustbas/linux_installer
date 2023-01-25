@@ -1,7 +1,7 @@
 # arch_installer
 krch Linux installer written by "Creating a Development Environment Without a Mouse"
 
-# Installing
+# Installation Guide
 
 1. Connect to Internet
 2. Run 
