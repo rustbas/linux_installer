@@ -16,7 +16,7 @@ Arch Linux installer written by "Creating a Development Environment Without a Mo
 # TODO
 
 - [ ] Check on VM
-    - [ ] Check 1 part of installer of VM
+    - [x] Check 1 part of installer of VM
     - [ ] Check 2 part of installer of VM
     - [ ] Check 3 part of installer of VM
     - [ ] Check 4 part of installer of VM
