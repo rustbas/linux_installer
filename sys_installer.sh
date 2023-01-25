@@ -9,9 +9,9 @@
 
 # timedatectl set-ntp true
 
-#########
-# START #
-#########
+#  ╭───────╮
+#  │ START │
+#  ╰───────╯
 
 dialog --defaultno --title "Are you sure?" --yesno \
 "This is my personnal Arch Linux install. \n\n\
@@ -22,17 +22,17 @@ Do you want to continue?" 15 60 || exit
 dialog --no-cancel --inputbox "Enter a name for your computer." 10 60 2> comp
 
 
-##############################
-# VERIFY BOOT (UEFI OR BIOS) #
-##############################
+#  ╭────────────────────────────╮
+#  │ VERIFY BOOT (UEFI OR BIOS) │
+#  ╰────────────────────────────╯
 
 uefi=0
 ls /sys/firmware/efi/efivars 2> /dev/null && uefi=1
 
 
-##########################
-# CHOOSING THE HARD DISK #
-##########################
+#  ╭────────────────────────╮
+#  │ CHOOSING THE HARD DISK │
+#  ╰────────────────────────╯
 
 devices_list=($(lsblk -d | awk '{print "/dev/" $1 " " $4 " on"}' \
 | grep -E 'sd|hd|vd|nvme|mmcblk'))
