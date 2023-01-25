@@ -1,5 +1,5 @@
 # arch_installer
-krch Linux installer written by "Creating a Development Environment Without a Mouse"
+Arch Linux installer written by "Creating a Development Environment Without a Mouse"
 
 # Installation Guide
 
@@ -15,11 +15,13 @@ krch Linux installer written by "Creating a Development Environment Without a Mo
 
 # TODO
 
-- [ ] Check 1 part of installer of VM
-- [ ] Check 2 part of installer of VM
-- [ ] Check 3 part of installer of VM
-- [ ] Check 4 part of installer of VM
-- [ ] Check 1 part of installer of LapTop
-- [ ] Check 2 part of installer of LapTop
-- [ ] Check 3 part of installer of LapTop
-- [ ] Check 4 part of installer of LapTop
+- [ ] Check on VM
+    - [ ] Check 1 part of installer of VM
+    - [ ] Check 2 part of installer of VM
+    - [ ] Check 3 part of installer of VM
+    - [ ] Check 4 part of installer of VM
+- [ ] Check on LapTop
+    - [ ] Check 1 part of installer of LapTop
+    - [ ] Check 2 part of installer of LapTop
+    - [ ] Check 3 part of installer of LapTop
+    - [ ] Check 4 part of installer of LapTop
