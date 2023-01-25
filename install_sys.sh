@@ -111,12 +111,19 @@ partprobe "$hd"
 fdisk "$hd" << EOF
 g
 n
+
+
 +512M
 t
 $boot_partition_type
 n
+
+
 +${size}G
 n
+
+
+
 w
 EOF
 partprobe "$hd"
