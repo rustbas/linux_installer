@@ -1,13 +1,12 @@
 # arch_installer
-Arch Linux installer written by "Creating a Development Environment Without a Mouse"
+krch Linux installer written by "Creating a Development Environment Without a Mouse"
 
 # Installing
 
 1. Connect to Internet
 2. Run 
     ```bash
-    curl -LO https://raw.githubusercontent.com/<your_github_user_name>\
-    /arch_installer/master/install_sys.sh
+    curl -LO https://raw.githubusercontent.com/rustbas/arch_installer/master/install_sys.sh
     ```
 3. Run 
     ```bash
