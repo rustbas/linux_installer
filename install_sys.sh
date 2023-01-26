@@ -5,9 +5,9 @@
 #  ╰───────────────────────────╯
 
 # Never run pacman -Sy on your system!
-# pacman -Sy dialog
+ pacman -Sy dialog
 
-# timedatectl set-ntp true
+ timedatectl set-ntp true
 
 #  ╭───────╮
 #  │ START │
@@ -160,6 +160,13 @@ echo "$hd" > /mnt/var_hd
 mv comp /mnt/comp
 curl https://raw.githubusercontent.com/rustbas\
 /arch_installer/main/install_chroot.sh > /mnt/install_chroot.sh
+
+#  ╭─────────────────╮
+#  │ ASK TO CONTINUE │
+#  ╰─────────────────╯
+
+dialog --defaultno --title "Continue install?" --yesno "" 6 50 || exit
+
 arch-chroot /mnt bash install_chroot.sh
 rm /mnt/var_uefi
 rm /mnt/var_hd
