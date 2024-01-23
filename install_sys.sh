@@ -4,6 +4,9 @@
 #  │ UNCOMMENT AT REAL INSTALL │
 #  ╰───────────────────────────╯
 
+# DEBUG
+set -xe
+
 # Never run pacman -Sy on your system!
 pacman -Sy dialog
 
