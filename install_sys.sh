@@ -5,9 +5,9 @@
 #  ╰───────────────────────────╯
 
 # Never run pacman -Sy on your system!
- pacman -Sy dialog
+pacman -Sy dialog
 
- timedatectl set-ntp true
+timedatectl set-ntp true
 
 #  ╭───────╮
 #  │ START │
@@ -158,8 +158,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 echo "$uefi" > /mnt/var_uefi
 echo "$hd" > /mnt/var_hd
 mv comp /mnt/comp
-curl https://raw.githubusercontent.com/rustbas\
-/arch_installer/main/install_chroot.sh > /mnt/install_chroot.sh
+curl https://raw.githubusercontent.com/rustbas/arch_installer/main/install_chroot.sh > /mnt/install_chroot.sh
 
 #  ╭─────────────────╮
 #  │ ASK TO CONTINUE │
