@@ -1,5 +1,17 @@
-# arch_installer
-Arch Linux installer written by "Creating a Development Environment Without a Mouse"
+# Linux installer
+
+Simple install script with following features:
+1. BIOS install (maybe UEFI later)
+2. `8GB` swap
+3. Encrypted root dir
+
+# Install checklist
+
+1. Internet.
+2. `fdisk`.
+3. `cryptsetup`.
+4. Locale, timezone, hostname and hosts.
+5. Grub and UUIDs.
 
 # Installation Guide
 
@@ -14,14 +26,3 @@ Arch Linux installer written by "Creating a Development Environment Without a Mo
     ```
 
 # TODO
-
-- [ ] Check on VM
-    - [x] Check 1 part of installer of VM
-    - [ ] Check 2 part of installer of VM
-    - [ ] Check 3 part of installer of VM
-    - [ ] Check 4 part of installer of VM
-- [ ] Check on LapTop
-    - [ ] Check 1 part of installer of LapTop
-    - [ ] Check 2 part of installer of LapTop
-    - [ ] Check 3 part of installer of LapTop
-    - [ ] Check 4 part of installer of LapTop
