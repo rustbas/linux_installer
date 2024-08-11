@@ -15,14 +15,4 @@ Simple install script with following features:
 
 # Installation Guide
 
-1. Connect to Internet
-2. Run 
-    ```bash
-    curl -LO https://raw.githubusercontent.com/rustbas/arch_installer/master/install_sys.sh
-    ```
-3. Run 
-    ```bash
-    bash install_sys.sh
-    ```
-
 # TODO
