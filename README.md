@@ -1,3 +1,7 @@
+# *NOTE*
+
+Main branch unavaible. Look for `artix-encrypted` branch.
+
 # arch_installer
 Arch Linux installer written by "Creating a Development Environment Without a Mouse"
 
